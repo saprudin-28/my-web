@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            background-color: #f1f1f1;
+            width: 15%;
+            height: 100%;
+            position: fixed;
+            overflow: auto;
+        }
+
+        li a.active {
+            background-color: #04AA6D;
+            color: white;
+        }
+
+        li a {
+            display: flex;
+            text-decoration: none;
+            padding: 8px 16px;
+        }
+
+        li a:hover:not(.active) {
+            background-color: black;
+            color: white;
+        }
+
+        div {
+            margin-left: 15%;
+            padding: 1px 16px;
+            height: 1000px;
+        }
+        div p:first-letter{
+            size: 30px;
+            color: crimson;
+            
+        }
+    </style>
+</head>
+
+<body>
+    <ul>
+        <li><a class="active" href="#">Home</a></li>
+        <li><a href="#">Profile</a></li>
+        <li><a href="#">News</a></li>
+        <li><a href="#">Contact</a></li>
+        <li><a href="#">Abaut</a></li>
+    </ul>
+
+    <div>
+        <h1>Hello World</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, quidem doloremque! Omnis natus illo ut
+            dicta consequuntur iste quisquam repellendus minima. Nisi, optio est! Id vero quidem mollitia exercitationem
+            quod!</p>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non, sit, provident rerum ex unde debitis aut
+            voluptate culpa eaque, temporibus animi a perspiciatis! Eligendi aut illum fugit voluptatem, nesciunt nemo.
+        </p>
+    </div>
+
+</body>
+
+</html>
