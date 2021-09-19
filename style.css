@@ -3,9 +3,13 @@
     color: #fefefe;
 }
 
-nav div ul li{
-    margin: 5px;
-    padding: 5px;
+nav div ul li a:hover{
+    background-color: #12121f;
+    color: #fefefe;
+    text-decoration: none;
+}
+nav div ul li a{
+    padding: 7px;
 }
 nav div{
     display: flex;
